@@ -17,3 +17,17 @@ int main()
 
     return 0; /// Check and informs the OS whether the code executed successfully (not necessary)
 }
+//The same concept applies on function declaration where you provide a function name at the time of its declaration and its actual definition can be given anywhere else. For example −
+// function declaration
+int func();
+
+int main() {
+
+   // function call
+   int i = func();
+}
+
+// function definition
+int func() {
+   return 0;
+}
